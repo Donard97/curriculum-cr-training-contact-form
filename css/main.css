@@ -325,3 +325,82 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.contact-form-header {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 44px;
+  color: #091e42;
+  text-align: center;
+  background-color: white;
+}
+
+.form-group {
+  border: 0;
+}
+
+.form-group input {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #979493;
+  width: 100%;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #dbd8d7;
+  padding: 24px;
+}
+
+.form-group-textarea {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c3a39;
+  margin-top: 30px;
+  width: 100%;
+  height: 114px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px none #ccc;
+  background-color: #fbf8f7;
+  resize: none;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.btn-1 {
+  align-self: center;
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: 350ms;
+}
